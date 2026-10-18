@@ -1,13 +1,12 @@
-import Header from "./assets/Header";
-import { Welcome } from "./assets/Welcom";
+import ListCard from "./assets/ListCard";
+
 
 
 
 function App() {
   return (
     <>
-      <Header />
-      <Welcome />
+      <ListCard />
     </>
   );
 }
