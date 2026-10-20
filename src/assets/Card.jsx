@@ -3,9 +3,9 @@
 export function Card({ thumbnail, title, price }) {
     return (
         <>
-            <div className="col justify-content-between gap-2">
-                <div className="card shadow-sm">
-                    <img className="card-img-top"
+            <div className="justify-content-bettween w-100">
+                <div className="card shadow-sm p-3 ">
+                    <img className="card-img-top" style={{height: '350px'}}
                         src={thumbnail} alt="" />
                     <div className="card-body">
                         <p className="card-title">{title}</p>

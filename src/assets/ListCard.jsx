@@ -31,9 +31,13 @@ export default function ListCard() {
     ];
     return (
         <>
-            <div className="d-flex">
-                {
-                    products.map((product) => <Card key={product.id} title={product.title} price={product.price} thumbnail={product.thumbnail} />)}
+            <div className="p-4">
+                <h3 className="">Laptops</h3>
+                <div className="mb-3" style={{ backgroundColor: 'red', width: '8%', height: '1px' }}></div>
+                <div className="d-flex gap-3">
+                    {
+                        products.map((product) => <Card key={product.id} title={product.title} price={product.price} thumbnail={product.thumbnail} />)}
+                </div>
             </div>
         </>
     )

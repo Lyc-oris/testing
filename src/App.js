@@ -1,3 +1,4 @@
+import Header from "./assets/Header";
 import ListCard from "./assets/ListCard";
 
 
@@ -6,6 +7,7 @@ import ListCard from "./assets/ListCard";
 function App() {
   return (
     <>
+      <Header />
       <ListCard />
     </>
   );
